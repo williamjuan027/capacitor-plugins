@@ -1,7 +1,5 @@
+// init - keep here.
 import '@nativescript/capacitor/bridge';
-import * as Plugins from '@nativescript-community/capacitor-plugins';
-
-native = Object.assign(native, Plugins);
 
 /**
  *      ****       ****
@@ -33,5 +31,3 @@ import './examples/simple';
 
 // Example C: opening a native modal
 import './examples/modal';
-
-import './examples/photopicker';
